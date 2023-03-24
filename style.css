@@ -1,0 +1,274 @@
+/* CSS RESET */
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color:rgb(237, 242, 237);
+    font-family: 'Poppins', sans-serif;
+}
+
+  /* Navbar Section Start */
+  .nav img{
+    width: 130px;
+    margin-top: 30px;
+    margin-left: 50px;
+  }
+
+  .nav-right ul{
+    display: flex;
+    float: right;
+    margin-right: 80px;
+    margin-top: -60px;
+  }
+  .nav-right ul li{
+    list-style: none;
+    margin: 20px;
+    font-size: 1.3rem;
+  }
+
+  .nav-right ul li a{
+    text-decoration: none;
+    color: #000000;
+  }
+
+  .nav-right ul li a:hover{
+    background-color: #0bad0b;
+    text-decoration: none;
+  }
+
+  /* Navbar Section End */
+
+
+  /* Compelete Health Section Start */
+  .left-content{
+    margin-top: 200px;
+    margin-left: 70px;
+  }
+
+  .left-content h1{
+    font-size: 3.4rem;
+  }
+  .left-content p{
+    font-size: 1rem;
+  }
+  .left-content button{
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+
+  button{
+    width: 17%;
+    height: 7vh;
+    font-size: 0.9rem;
+    background-color: #18ad18;
+    border: none;
+    border-radius: 15px;
+    color: #ffffff;
+    cursor: pointer;
+  }
+  /* Compelete Health Section End */
+
+     /* Image Section Start */
+   .top-angel{
+    margin-top: -410px;
+    margin-left: 50px;
+   }
+
+   .button-angel{
+    margin-left: 465px;
+    margin-top: 380px;
+   }
+
+   .mouse{
+    margin-left: 490px;
+   }
+
+   .mouse img{
+    width: 28px;
+   }
+   .stethoscope{
+    margin-top: -430px;
+    margin-left: 130px;
+    color: #000000;
+   }
+   .stethoscope img{
+    width: 500px;
+   }
+
+   .green-box{
+    margin-left: 960px;
+    margin-top: -500px;
+   }
+   .green-box img{
+      width: 300px;
+   }
+
+   .yellow-box{
+    margin-left: 1010px;
+    margin-top: -240px;
+   }
+   .yellow-box img{
+    width: 250px;
+   }
+   
+   .doctor-image img{
+    width: 350px;
+   }
+   .doctor-image{
+    margin-left: 890px;
+    margin-top: -450px;
+   }
+     /* Image Section End */
+
+
+     /* Best and Experienced Section Start */
+  .best-experienced-content{
+    text-align: center;
+    margin-top: 330px;
+  }
+
+  .best-experienced-content h1{
+    font-size: 2.6rem;
+    color: #008000;
+    margin-top: -80px;
+  }
+
+  .best-experienced-content .para1{
+    font-size: 1.4rem;
+    color: #000000;
+  }
+
+  .best-experienced-content .para2{
+    font-size: 1.2rem;
+    margin-top: -15px;
+  }
+
+  .best-experienced-content .para3{
+    font-size: 1.2rem;
+    margin-top: -5px;
+  }
+
+  .doctors{
+    position: relative;
+    background: #fff;
+    width: fit-content;
+    padding: 10px 50px;
+    margin-top: 50px;
+    margin-left: 300px;
+    border-radius: 10px;
+    text-align: center;
+  }
+
+  .doctors p{
+    color: #008000;
+    margin: 0;
+  }
+  .doctors span{
+    color: #008000;
+  }
+
+  .customers{
+    position: relative;
+    background: #fff;
+    width: fit-content;
+    padding: 10px 50px;
+    margin-top: -73px;
+    margin-left: 550px;
+    border-radius: 10px;
+    text-align: center;
+  }
+
+  .customers p{
+    color: #008000;
+    margin: 0;
+  }
+  .customers span{
+    color: #008000;
+  }
+
+
+  .students{
+    position: relative;
+    background: #fff;
+    width: fit-content;
+    padding: 10px 50px;
+    margin-top: -73px;
+    margin-left: 800px;
+    border-radius: 10px;
+    text-align: center;
+  }
+
+  .students p{
+    color: #008000;
+    margin: 0;
+  }
+  .students span{
+    color: #008000;
+  }
+     /* Best and Experienced Section End */
+
+          /* Contact Foam */
+
+/* main section and form Start */
+
+main{
+  height: 85vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+form{
+  width: 350px;
+  box-shadow: 0 0 10px #000000;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 400px;
+  margin-left: 300px;
+  margin-right: -330px;
+}
+
+form h1{
+  text-align: center;
+}
+
+form div{
+  display: flex;
+  flex-direction: column;
+}
+
+form label{
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+form  input{
+  border: transparent;
+  border-radius: 10px;
+  padding: 5px 10px;
+}
+
+form div textarea{
+  resize: none;
+  height: 100px;
+  border: transparent;
+  border-radius: 10px;
+  padding: 5px 10px;
+}
+
+form button{
+  border-radius: 10px;
+  background: #0fc57c;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px;
+  cursor: pointer;
+  width: 350px;
+}
+
+  /* main section and form End */
